@@ -329,7 +329,7 @@ p {
   /* ------ info_points ------ */
   
   .info_points {
-    background-image: url(./img/self/k/illustration-76.png);
+    background-image: url(./img/component/illustration/illustration-87.png);
     background-size: cover;
     padding: 68px 40px 280px 40px;
     position: relative;
@@ -423,13 +423,14 @@ p {
     position: absolute;
     bottom: 82px;
     left: 0;
-    background-image: url(./img/self/k/illustration-58.png);
+    background-image: url(./img/component/illustration/illustration-58.png);
     background-repeat: no-repeat;
     background-position: 0% 100%;
     background-size: contain;
     width: 277px;
     height: 126px;
     z-index: 5;
+    transform: scaleX(-1);
   }
   @media screen and (min-width: 768px){
     .info_points .poolPeople{
